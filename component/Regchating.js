@@ -1,0 +1,1 @@
+import {    StackNavigator,} from 'react-navigation';import Chatting from './Chatting';/* * 初始化StackNavigator */export default RegInter = StackNavigator({    //默认加载第一个页面，这里用来注册需要跳转的页面 相当于Manifest.xml文件    Chatting: {        screen: Chatting,    }});
